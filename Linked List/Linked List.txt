@@ -1,0 +1,8 @@
+ - A Linked List is a data structure in which each node points to another node.
+ - Unlike Arrays which have a fixed size, a linked list is a dynamic data structure that can allocate memory at runtime.
+ - Type Types of Linked List:
+    - Singly Linked Lists: 
+        Each node has reference to the next node.
+        A Node in a singly linked list has following properties:
+            - data and next.data is the value for the linked list node
+            - next is a pointer to another instance of SinglyLinkedListNode
