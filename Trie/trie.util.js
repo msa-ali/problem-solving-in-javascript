@@ -1,3 +1,7 @@
+/**
+ * Basic Introduction to Trie - https://www.youtube.com/watch?v=zIjfhVPRZCg
+ */
+
 class TrieNode {
     constructor(val){
         this.val = val;
