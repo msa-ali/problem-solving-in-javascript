@@ -1,0 +1,20 @@
+{
+  "name": "DSA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:trie": "node ./Trie/trie.util.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altamashattari/Data-Structure-and-Algorithm-in-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Altamashattari/Data-Structure-and-Algorithm-in-JS/issues"
+  },
+  "homepage": "https://github.com/Altamashattari/Data-Structure-and-Algorithm-in-JS#readme"
+}
