@@ -113,3 +113,15 @@ function hasCycle(head) {
     return hasCycle;
 }
 
+function reverseSingleLinkedList(head) {
+    let node = head;
+    let prev = null;
+    while(node) {
+        const temp = node.next;
+        node.next = prev;
+        prev = node;
+        node = temp;
+    }
+    return node;
+}
+
