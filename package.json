@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:trie": "node ./Trie/trie.util.js"
+    "test:trie": "node ./Trie/trie.util.js",
+    "deepclone": "node deepClone.js"
   },
   "repository": {
     "type": "git",
