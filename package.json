@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test:trie": "node ./Trie/trie.util.js",
-    "deepclone": "node deepClone.js"
+    "deepclone": "node deepClone.js",
+    "test:del": "node ./leetcode/deleteNthElementsFromEnd.js",
+    "test:norepeat": "node ./CodingPatterns/SlidingWindowPattern/no-repeat-substring.js",
+    "test:currying": "node ./javascript-specific/currying.js"
   },
   "repository": {
     "type": "git",
