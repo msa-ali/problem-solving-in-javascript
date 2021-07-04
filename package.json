@@ -8,7 +8,8 @@
     "deepclone": "node deepClone.js",
     "test:del": "node ./leetcode/deleteNthElementsFromEnd.js",
     "test:norepeat": "node ./CodingPatterns/SlidingWindowPattern/no-repeat-substring.js",
-    "test:currying": "node ./javascript-specific/currying.js"
+    "test:currying": "node ./javascript-specific/currying.js",
+    "test:threeSum": "node ./CodingPatterns/two-pointers-pattern/threeSum.js"
   },
   "repository": {
     "type": "git",
