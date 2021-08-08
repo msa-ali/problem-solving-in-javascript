@@ -11,7 +11,8 @@
     "test:currying": "node ./javascript-specific/currying.js",
     "test:threeSum": "node ./CodingPatterns/two-pointers-pattern/threeSum.js",
     "test:islands": "node ./2DArray/NumberOfIslands.js",
-    "test:walls": "node ./2DArray/wallsAndGates.js"
+    "test:walls": "node ./2DArray/wallsAndGates.js",
+    "test:lru": "node ./Caching/LRU.js"
   },
   "repository": {
     "type": "git",

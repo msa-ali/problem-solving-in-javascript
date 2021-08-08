@@ -94,4 +94,16 @@ class DoublyLinkedList {
         }
         return false;
     }
+
+    print() {
+        let temp = this.head;
+        while(temp) {
+            const val = typeof temp.data.data === 'object' ? JSON.stringify(temp.data.data) : temp.data.data;
+            console.log(`[${val}] => `);
+            temp = temp.next;
+        }
+        console.log("null");
+    }
 }
+
+module.exports = {DoublyLinkedList, DoublyLinkedListNode};
