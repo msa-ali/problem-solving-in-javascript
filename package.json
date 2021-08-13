@@ -12,7 +12,9 @@
     "test:threeSum": "node ./CodingPatterns/two-pointers-pattern/threeSum.js",
     "test:islands": "node ./2DArray/NumberOfIslands.js",
     "test:walls": "node ./2DArray/wallsAndGates.js",
-    "test:lru": "node ./Caching/LRU.js"
+    "test:lru": "node ./Caching/LRU.js",
+    "test:uber-path-between-two-nodes": "node ./real-world-scenario-problems/uber/path-between-two-nodes.js",
+    "customPromise": "node ./javascript-specific/Promise.js"
   },
   "repository": {
     "type": "git",

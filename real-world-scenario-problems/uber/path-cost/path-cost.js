@@ -62,3 +62,16 @@ function pathCost(elevationMap) {
 // Driver code
 var elevationMap = [1, 2, 1, 3, 1, 2, 1, 4, 1, 0, 0, 2, 1, 4]
 console.log("Accumulated water:", pathCost(elevationMap) + "cm")
+
+/*
+Let n be the size of the array.
+
+Time complexity #
+Since all three arrays were traversed separately and only once, the time complexity will be 
+
+O(n).
+
+Space complexity #
+
+O(n) space will be required for the leftMax and rightMax arrays.
+*/
