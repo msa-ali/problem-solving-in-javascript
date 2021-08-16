@@ -14,7 +14,11 @@
     "test:walls": "node ./2DArray/wallsAndGates.js",
     "test:lru": "node ./Caching/LRU.js",
     "test:uber-path-between-two-nodes": "node ./real-world-scenario-problems/uber/path-between-two-nodes.js",
-    "customPromise": "node ./javascript-specific/Promise.js"
+    "customPromise": "node ./javascript-specific/Promise.js",
+    "hof": "node ./javascript-specific/functional-programming/higher-order-function.js",
+    "compose": "node ./javascript-specific/functional-programming/compose.js",
+    "partial": "node ./javascript-specific/functional-programming/partial.js",
+    "memo": "node ./javascript-specific/functional-programming/memoization.js"
   },
   "repository": {
     "type": "git",
