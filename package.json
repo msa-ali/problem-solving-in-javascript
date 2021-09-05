@@ -18,7 +18,10 @@
     "hof": "node ./javascript-specific/functional-programming/higher-order-function.js",
     "compose": "node ./javascript-specific/functional-programming/compose.js",
     "partial": "node ./javascript-specific/functional-programming/partial.js",
-    "memo": "node ./javascript-specific/functional-programming/memoization.js"
+    "memo": "node ./javascript-specific/functional-programming/memoization.js",
+    "ceiling-of-a-number": "node ./CodingPatterns/modified-binary-search/ceiling-of-a-number.js",
+    "min-dff": "node ./CodingPatterns/modified-binary-search/min-diff-element.js",
+    "find_max_in_bitonic_array": "node ./CodingPatterns/modified-binary-search/find_max_in_bitonic_array.js"
   },
   "repository": {
     "type": "git",
