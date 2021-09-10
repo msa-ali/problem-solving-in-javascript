@@ -1,5 +1,5 @@
 {
-  "name": "DSA",
+  "name": "dsa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,7 +21,8 @@
     "memo": "node ./javascript-specific/functional-programming/memoization.js",
     "ceiling-of-a-number": "node ./CodingPatterns/modified-binary-search/ceiling-of-a-number.js",
     "min-dff": "node ./CodingPatterns/modified-binary-search/min-diff-element.js",
-    "find_max_in_bitonic_array": "node ./CodingPatterns/modified-binary-search/find_max_in_bitonic_array.js"
+    "find_max_in_bitonic_array": "node ./CodingPatterns/modified-binary-search/find_max_in_bitonic_array.js",
+    "polyfill_array": "node /Users/maa0027/Desktop/gg/DSA/javascript-specific/polyfill/map.js"
   },
   "repository": {
     "type": "git",
