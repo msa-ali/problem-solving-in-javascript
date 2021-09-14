@@ -2,8 +2,6 @@
     Create a Job class which takes a callback function and a list of job instances which will be running some 
     async task. The callback function should be executed only when all the dependencies i.e. job instances are finished.
 */
-
-
 class Job {
     #fn = null;
     #dependencies = [];
@@ -12,6 +10,9 @@ class Job {
     #numOfCompletedJobs = 0;
 
     constructor(fn, dependencies = []) {
+        if(!fn) {
+            throw new Error('Callback function is not defined');
+        }
         this.#fn = fn;
         this.#dependencies = dependencies.filter(dep => dep instanceof Job && !dep.isJobFinished());
         this.#processJob();
