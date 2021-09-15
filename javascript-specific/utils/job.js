@@ -10,7 +10,7 @@ class Job {
     #numOfCompletedJobs = 0;
 
     constructor(fn, dependencies = []) {
-        if(!fn) {
+        if (!fn) {
             throw new Error('Callback function is not defined');
         }
         this.#fn = fn;
@@ -28,11 +28,17 @@ class Job {
     }
 
     #publish() {
-        this.#subscribers.forEach(subscriber => subscriber && subscriber());
+        this.#subscribers.forEach(({ callback }) =>  callback && callback());
     }
 
     subscribe(callback) {
-        this.#subscribers.push(callback);
+        const subscription = { id: this.#subscribers.length, callback};
+        this.#subscribers.push(subscription);
+        return subscription.id;
+    }
+
+    unsubscribe(subscriptionId) {
+        this.#subscribers = this.#subscribers.filter(({id}) => id !== subscriptionId);
     }
 
     #trackDependencies() {
@@ -92,14 +98,18 @@ job4.subscribe(() => {
     console.log('Subscriber 1');
 })
 
-job4.subscribe(() => {
+let subscription = job4.subscribe(() => {
     console.log('Subscriber 2');
 })
+
+job4.unsubscribe(subscription);
 
 job4.subscribe(() => {
     console.log('Subscriber 3');
 })
 
-job4.subscribe(() => {
+subscription = job4.subscribe(() => {
     console.log('Subscriber 4');
 })
+
+job4.unsubscribe(subscription);
