@@ -21,7 +21,7 @@
 
 - LFU is uncommon as when an item in memory is referened repeatedly for a short amt of time, the frequency for that block is high but this forces the system to delete other blocks tht may be used more frequently outside the short block of time. Also new items in the system are susceptible to being deleted quickly because of their lower frequency of being accessed.
 
-- SOME USECASE OF LFU - MOBILE KEYBOARD APPS. Suggested workds appear on the keyboard apps and it makes sense to implement this using LFU caching since the user likely uses the same words often.
+- SOME USECASE OF LFU - MOBILE KEYBOARD APPS. Suggested words appear on the keyboard apps and it makes sense to implement this using LFU caching since the user likely uses the same words often.
 
 ## Least Recently Used (LRU)
 - Least Recently Used (LRU) is a common caching strategy. 
