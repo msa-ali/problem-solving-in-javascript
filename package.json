@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test:trie": "node ./Trie/trie.util.js",
     "deepclone": "node deepClone.js",
