@@ -24,7 +24,9 @@
     "min-dff": "node ./CodingPatterns/modified-binary-search/min-diff-element.js",
     "find_max_in_bitonic_array": "node ./CodingPatterns/modified-binary-search/find_max_in_bitonic_array.js",
     "polyfill_array": "node /Users/maa0027/Desktop/gg/DSA/javascript-specific/polyfill/map.js",
-    "heap": "node ./priority-queue/priority-queue.js"
+    "heap": "node ./priority-queue/priority-queue.js",
+    "kth-largest": "node ./priority-queue/problems/kth-largest-number.js",
+    "fb": "node ./real-world-scenario-problems/facebook/feature-1.js"
   },
   "repository": {
     "type": "git",

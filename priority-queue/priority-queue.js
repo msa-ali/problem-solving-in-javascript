@@ -1,4 +1,4 @@
-class PriorityQueue {
+export class PriorityQueue {
     #heap = [];
     #comparator;
 
@@ -32,6 +32,10 @@ class PriorityQueue {
             this.#siftDown();
             return poppedValue;
         }
+    }
+
+    toArray() {
+        return [...this.#heap];
     }
 
     print() {
