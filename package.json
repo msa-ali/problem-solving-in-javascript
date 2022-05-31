@@ -26,7 +26,9 @@
     "polyfill_array": "node /Users/maa0027/Desktop/gg/DSA/javascript-specific/polyfill/map.js",
     "heap": "node ./priority-queue/priority-queue.js",
     "kth-largest": "node ./priority-queue/problems/kth-largest-number.js",
-    "fb": "node ./real-world-scenario-problems/facebook/feature-1.js"
+    "fb": "node ./real-world-scenario-problems/facebook/feature-1.js",
+    "promiseAll": "node ./javascript-specific/polyfill/promise-all.js",
+    "flatten": "node ./javascript-specific/polyfill/array-flatten.js"
   },
   "repository": {
     "type": "git",
