@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-problems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Altamash Ali",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.2"
+  }
+}
