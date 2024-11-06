@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "json-parser": "ts-node src/utils/json-parser/index.ts"
   },
   "keywords": [],
   "author": "Altamash Ali",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^20.12.7",
     "jsdom": "^24.0.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.7.3",
     "typescript": "^5.4.5",
     "vitest": "^1.5.2"
