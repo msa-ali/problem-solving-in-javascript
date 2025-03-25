@@ -2,7 +2,7 @@
     Suppose our application is using an external library to access setTimeOut function which is buggy.
     You need to use this buggy setTimeOut without affecting it output.
 */
-import { PriorityQueue } from "../data-structures/priority-queue";
+import { PriorityQueue } from "../../data-structures/priority-queue";
 
 let timerId;
 const mySetTimeout = (callback, wait) => {
